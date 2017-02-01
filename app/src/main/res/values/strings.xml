@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CiBi</string>
+    <string name="edit_message">Name Your Cibi Pet</string>
+    <string name="button_send">Enter</string>
+    <string name="title_activity_cibisplash">cibisplash</string>
+</resources>
+
