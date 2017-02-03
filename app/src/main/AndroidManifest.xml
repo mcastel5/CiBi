@@ -19,7 +19,12 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".DisplayMessageActivity" />
-        <activity android:name=".eathome"></activity>
+        <activity android:name=".eathome" />
+        <activity android:name=".PlayHome" />
+        <activity android:name=".ScoresHome" />
+        <activity android:name=".ShopHome" />
+        <activity android:name=".FriendsHome" />
+        <activity android:name=".SettingsHome"></activity>
     </application>
 
 </manifest>

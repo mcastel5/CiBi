@@ -21,7 +21,7 @@
         android:layout_marginStart="39dp"
         android:layout_marginTop="116dp"
         android:id="@+id/Eat"
-        android:onClick="sendMessage"/>
+        android:onClick="eatbtn"/>
 
     <Button
         android:text="SCORES"
@@ -30,7 +30,8 @@
         android:layout_centerVertical="true"
         android:layout_alignRight="@+id/Eat"
         android:layout_alignEnd="@+id/Eat"
-        android:id="@+id/SCORES" />
+        android:id="@+id/SCORES"
+        android:onClick="scoresbtn"/>
 
     <Button
         android:text="SETTINGS"
@@ -39,7 +40,8 @@
         android:layout_alignBottom="@+id/SCORES"
         android:layout_alignRight="@+id/PLAY"
         android:layout_alignEnd="@+id/PLAY"
-        android:id="@+id/SETTINGS" />
+        android:id="@+id/SETTINGS"
+        android:onClick="settingsbtn"/>
 
     <Button
         android:text="PLAY"
@@ -51,5 +53,27 @@
         android:layout_alignBaseline="@+id/Eat"
         android:layout_alignBottom="@+id/Eat"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="playbtn"/>
+
+    <Button
+        android:text="SHOP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SCORES"
+        android:layout_alignRight="@+id/SCORES"
+        android:layout_alignEnd="@+id/SCORES"
+        android:layout_marginTop="64dp"
+        android:id="@+id/button"
+        android:onClick="shopbtn"/>
+
+    <Button
+        android:text="FRIENDS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignRight="@+id/SETTINGS"
+        android:layout_alignEnd="@+id/SETTINGS"
+        android:id="@+id/button2"
+        android:onClick="friendsbtn"/>
 </RelativeLayout>
